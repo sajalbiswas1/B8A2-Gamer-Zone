@@ -28,7 +28,7 @@ nav{
 }
 .nav-left h2{
     color: #0B0223;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 .nav-left .span-1{
@@ -68,9 +68,10 @@ nav{
 }
 /* Banner Style Start */
 .banner{
-    background-image: url(../images/Group14.png);
+    margin: 19px;
+    /* background-image: url(../images/Group14.png);
     background-repeat: no-repeat;
-    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
 }
 .banner-container{
     max-width: 1440px;
@@ -139,3 +140,34 @@ nav{
     text-transform: uppercase;
 }
 /* Banner Style End */
+
+/* Responsive for mobile device Start*/
+@media screen and (max-width:425px) {
+    .nav-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-left{
+        justify-content: center;
+    }
+    .nav-right{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-img img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    
+}
+
+/* Responsive for mobile device End*/
+
+/* Responsive for Tablet device Start*/
+@media screen and (min-width:425px) and (max-width:768px) {
+    
+}
+/* Responsive for Tablet device End*/
