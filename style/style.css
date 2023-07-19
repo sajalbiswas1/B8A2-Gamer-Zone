@@ -141,6 +141,84 @@ nav{
 }
 /* Banner Style End */
 
+/* Online game funny section Style Start */
+    .funny-game-section{
+        max-width: 1440px;
+        margin: auto;
+        text-align: center;
+    }
+    .img-container{
+        display: flex;
+        gap: 24px;
+    }
+.funny-game-section h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.funny-game-section .funny-video-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny-game-section .game-title{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+.image-title{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+.game-img:hover {
+    opacity: .5;
+}
+.fa-circle-play{
+    font-size: 40px;
+}
+.watching{
+    text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.parant{
+    position: relative;
+}
+.play-item{
+    display: none;
+    position: absolute;
+    top: 130px;
+    right: 110px;
+}
+.game-img:hover + .play-item{
+    display: block;
+    color: red;
+}
+
+/* optional */
+
+/* Online game funny section Style End */
+
 /* Responsive for mobile device Start*/
 @media screen and (max-width:425px) {
     .nav-container{
