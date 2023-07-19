@@ -99,18 +99,18 @@ nav{
 }
 .banner-discription .pragraph1{
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     text-transform: lowercase;
 }
 .banner-discription .pragraph2{
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 .banner-discription .pragraph3{
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 .btn-container{
@@ -125,7 +125,7 @@ nav{
     border-radius: 48px;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -135,7 +135,7 @@ nav{
     padding: 21px 40px;
     border: none;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -153,7 +153,7 @@ nav{
     }
 .funny-game-section h3{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -162,7 +162,7 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 .funny-game-section .game-title{
@@ -177,7 +177,7 @@ nav{
 .image-title{
     color: #534C64;
     font-family: Work Sans;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
     line-height: 30px;
@@ -209,7 +209,7 @@ nav{
 }
 
 .play-section .play-instantly{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     line-height: 60px;
     background: linear-gradient(180deg, #F948B2 0%, #F948B2 100%);
@@ -219,7 +219,7 @@ nav{
 }
 .play-section p{
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     width: 353px;
 }
@@ -254,7 +254,7 @@ nav{
 }
 .title-container p{
     /* color: #0B0223; */
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 .title-container{
@@ -305,14 +305,14 @@ footer{
 .footer-div h2{
     color: #FFF;
     font-family: Work Sans;
-    font-size: 45px;
+    font-size: 2.82rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 .list > p{
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 600;
     margin-right: 60px;
 }
@@ -334,7 +334,7 @@ footer{
     border-radius: 50%;
     padding: 10px;
 }
-.fa-youtube{
+.font-icon .fa-youtube{
     color: #CD201F;
     font-size: 1.87rem;
     background-color: white;
@@ -364,7 +364,7 @@ footer{
 }
 .policy p{
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     margin-right: 60px;
 }
@@ -378,6 +378,8 @@ footer{
 
 /* Responsive for mobile device Start*/
 @media screen and (max-width:425px) {
+
+    /* header section */
     .nav-container{
         flex-direction: column;
         justify-content: center;
@@ -397,6 +399,8 @@ footer{
         margin-bottom: 80px;
     }
     
+
+
 }
 
 /* Responsive for mobile device End*/
