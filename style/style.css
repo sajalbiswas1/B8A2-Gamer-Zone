@@ -183,39 +183,6 @@ nav{
     line-height: 30px;
     text-align: left;
 }
-.game-img:hover {
-    opacity: .5;
-}
-.fa-circle-play{
-    font-size: 40px;
-}
-.watching{
-    text-align: center;
-font-family: Work Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.parant{
-    position: relative;
-}
-.play-item{
-    display: none;
-    position: absolute;
-    top: 130px;
-    right: 110px;
-}
-.game-img:hover + .play-item{
-    display: block;
-    color: red;
-}
-
-/* optional */
 
 /* Online game funny section Style End */
 
