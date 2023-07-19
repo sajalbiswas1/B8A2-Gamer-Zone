@@ -61,7 +61,7 @@ nav{
     
 }
 .nav-right .fa-youtube{
-    font-size: 30px;
+    font-size: 1.87rem;
     color: #F61C0D;
     padding: 0;
     margin: 0 16px;
@@ -281,6 +281,8 @@ footer{
 .list{
     display: flex;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 .font-icon{
     display: flex;
@@ -289,6 +291,7 @@ footer{
 .policy{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .footer-div .nav-left{
     justify-content: center;
@@ -314,13 +317,62 @@ footer{
     margin-right: 60px;
 }
 .font-icon{
+    gap: 30px;
+}
 
+.fa-twitter{
+    color: #00acee;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-facebook-f{
+    color: #3b5998;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-youtube{
+    color: #CD201F;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-linkedin-in{
+    color: #0072b1;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-instagram{
+    color: #fccc63;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fa-apple{
+    color: #66b447;
+    font-size: 1.87rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
 }
 .policy p{
     color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     font-weight: 500;
     margin-right: 60px;
+}
+.footer-discription{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 130px;
 }
 /* footer style End */
 
