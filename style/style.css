@@ -3,6 +3,7 @@
         font-family: 'Work Sans', sans-serif;
     }
 /* font style End*/
+
 nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(224, 22, 22, 0.05);
@@ -151,6 +152,38 @@ nav{
         display: flex;
         gap: 24px;
     }
+
+
+.fa-circle-play{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3.5rem;
+    padding-top: 50%;
+    text-align: center;
+}
+.hiden p{
+    color: #FF42A5;
+font-size: 20px;
+font-weight: 600;
+
+}
+.parant{
+    position: relative;
+}
+.hiden{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(15, 15, 16, 0.5);
+    width: 342px;
+    height: 400px;
+    border-radius: 16px;
+    top: 0;
+    margin: auto;
+    
+}
+.parant:hover .hiden{
+    display: block;
+}
 .funny-game-section h3{
     color: #0B0223;
     font-size: 3rem;
@@ -180,7 +213,7 @@ nav{
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 30px;
+
     
 }
 
@@ -245,19 +278,13 @@ nav{
     margin: auto;
     margin-top: 250px;
 }
-.icon-container{
-        
-}
-.div-1{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.div-2{
-    display: flex;
-    justify-content: center;
 
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .title-container p{
     /* color: #0B0223; */
     font-size: 1.25rem;
@@ -267,9 +294,9 @@ nav{
     display: flex;
     border-radius: 50px;
     background: #FFF;
-    gap: 16px;
+    gap: 1rem;
     border: 3px solid white;
-    padding: 15px;
+    padding: 1rem;
 }
 .title-container:hover {
     border: 3px solid #FF42A5;
@@ -280,10 +307,14 @@ nav{
 
 /* footer style start */
 footer{
-    width: 1440px;
     background: #0B0223;
+    
+}
+.footer-main{
+    width: 1440px;
     margin: auto;
     margin-top: 100px;
+    
 }
 .footer-div{
     width: 100%;
@@ -418,6 +449,9 @@ footer{
     .img-container{
         flex-direction: column;
     }
+    .hiden{
+        margin: 0 33px;
+    }
 /* Play section */
     .play-section{
         flex-direction: column-reverse;
@@ -433,24 +467,31 @@ footer{
         right: 10px;
     }
     /* Icon */
-    .div-1{
-        flex-direction: column;
-        justify-content: center;
-        padding-right: 0;
-        margin-right: 0;
+    .icon-img{
+        height: 40px;
+        width: 40px;
     }
-    .div-2{
-        flex-direction: column;
+    .title-container p{
+    font-size: 10px;
+    font-weight: 600;
+    }
+    .title-container{
+        padding: .5rem;
     }
     .title-icon-section{
-        margin-top: 70px;
+        justify-content: center;
+    }
+
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
     }
     /* footer */
     .list{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding-left: 10px;
-        
     }
     .font-icon{
         display: grid;
@@ -462,7 +503,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
-    footer{
+    .footer-main{
         width: 100%;
         
     }
