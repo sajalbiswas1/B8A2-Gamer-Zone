@@ -409,6 +409,7 @@ footer{
     font-size: 1rem;
     font-weight: 500;
     margin-right: 60px;
+    align-items: ;
 }
 .footer-discription{
     color: rgba(255, 255, 255, 0.60);
@@ -520,8 +521,164 @@ footer{
 }
 /* Responsive for mobile device End*/
 
+
+
+
+
 /* Responsive for Tablet device Start*/
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
+    .banner-img img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .banner-container{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 80px;
+    }
     
+/* funny Game */
+    .img-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .hiden{
+        /* margin: 0 33px; */
+    }
+/* Play section */
+    .play-section{
+        flex-direction: column-reverse;
+        margin-top: 10px;
+    }
+    .play-section-container{
+        padding-left: 0;
+        text-align: center;
+    }
+    .sort-img{
+        height: 300px;
+        width: 250px;
+    }
+    .short-img-container{
+        position: absolute;
+        top: 500px;
+        right: 220px;
+    }
+    .main-img{
+        width: 100%;
+    }
+    .istantly-img-container{
+        margin-bottom: 100px;
+    }
+    /* Icon */
+    .icon-img{
+        height: 40px;
+        width: 40px;
+    }
+    .title-container p{
+    font-size: 10px;
+    font-weight: 600;
+    }
+    .title-container{
+        padding: .5rem;
+    }
+    .title-icon-section{
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .icon-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+    }
+    /* footer */
+    .list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 10px;
+    }
+    .font-icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0 50px;
+    }
+    .policy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-main{
+        width: 100%;
+        
+    }
+    
+    
+    
+    
+    nav{
+        padding: 0 30px;
+    }
+    .nav-left h2{
+        font-size: 1.8rem;
+    }
+    .nav-left .span-1{
+        font-size: 1.8rem;
+    }
+    .nav-right{
+        gap: 13px;
+    }
+    .nav-right a{
+        font-size: .8rem;
+    }
+    .nav-right .nav-btn{
+        padding: 10px 9px 11px 14px;    
+    }
+    .nav-right .fa-youtube{
+        font-size: 1.1rem;
+    }
+
+
+
+
+
+    .banner-discription{
+        box-sizing: border-box;
+        padding-left: 40px;
+    }
+    .banner-discription h3{
+        font-size: 1.5rem;
+    }
+    .banner-discription h1{
+        font-size: 3rem;
+    }
+    .banner-discription .pragraph1{
+        font-size: .7rem;
+    }
+    .banner-discription .pragraph2{
+        font-size: .7rem;
+    }
+    .banner-discription .pragraph3{
+        font-size: .7rem;
+    }
+    .btn-container{
+        justify-content: space-around;
+        gap: 10px;
+    }
+    .btn-container .btn-1{
+        padding: 10px 15px;
+        border-radius: 20px;
+        font-size: .6rem;
+        height: 50px;
+        align-items: center;
+    }
+    .btn-container .btn-2{
+        padding: 10px 15px;
+        border-radius: 20px;
+        font-size: .6rem;
+        height: 50px;
+        align-items: center;
+    }
 }
+
+
+
+
 /* Responsive for Tablet device End*/
